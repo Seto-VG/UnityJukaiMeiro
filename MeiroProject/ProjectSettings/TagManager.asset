@@ -47,7 +47,7 @@ TagManager:
   - name: wall
     uniqueID: 2425651459
     locked: 0
-  - name: Layer 3
+  - name: Interior
     uniqueID: 4189426099
     locked: 0
   - name: New Layer 4
