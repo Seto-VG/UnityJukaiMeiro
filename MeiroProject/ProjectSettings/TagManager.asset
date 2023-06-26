@@ -44,11 +44,11 @@ TagManager:
   - name: floor
     uniqueID: 4250941897
     locked: 0
-  - name: wall
-    uniqueID: 2425651459
-    locked: 0
   - name: Interior
     uniqueID: 4189426099
+    locked: 0
+  - name: wall
+    uniqueID: 2425651459
     locked: 0
   - name: New Layer 4
     uniqueID: 1581336571
