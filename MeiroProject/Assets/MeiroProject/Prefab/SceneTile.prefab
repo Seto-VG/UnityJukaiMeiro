@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3032502363855513375}
   - component: {fileID: 2693855423080578844}
   m_Layer: 0
-  m_Name: To2ndFloorTile
+  m_Name: SceneTile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
