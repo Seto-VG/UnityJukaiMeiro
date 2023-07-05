@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4603036014045739940}
   - component: {fileID: 7719682435655624565}
   - component: {fileID: 3636917792546791932}
-  - component: {fileID: 1720651792473388773}
+  - component: {fileID: 5687883450136554482}
   m_Layer: 0
   m_Name: Key
   m_TagString: Key
@@ -27,12 +27,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 947718464724491341}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 23.11, y: 5.81, z: 0}
+  m_LocalPosition: {x: 24.7, y: 6.18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7719682435655624565
 SpriteRenderer:
@@ -131,7 +131,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1720651792473388773
+--- !u!114 &5687883450136554482
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
