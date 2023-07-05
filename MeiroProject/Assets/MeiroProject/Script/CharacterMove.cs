@@ -3,6 +3,7 @@ using UnityEngine.InputSystem;
 
 public class CharacterMove : MonoBehaviour
 {
+    public float speed;
     // あらかじめ Animator コンポーネントを持っておくようにする
     private Animator _animator;
 
@@ -30,7 +31,7 @@ public class CharacterMove : MonoBehaviour
             _animator.SetFloat("Y", move.y);
 
             // 入力した方向に移動
-            transform.Translate(move * 0.2f);
+            transform.Translate(move * speed);
         }
     }
 
@@ -39,19 +40,19 @@ public class CharacterMove : MonoBehaviour
     private Vector2 GetMove()
     {
         Vector2 move = Vector2.zero;
-        if (Keyboard.current.upArrowKey.isPressed)
+        if (Input.GetKey(KeyCode.W))
         {
             move += new Vector2(0, 1);
         }
-        if (Keyboard.current.downArrowKey.isPressed)
+        if (Input.GetKey(KeyCode.S))
         {
             move += new Vector2(0, -1);
         }
-        if (Keyboard.current.leftArrowKey.isPressed)
+        if (Input.GetKey(KeyCode.A))
         {
             move += new Vector2(-1, 0);
         }
-        if (Keyboard.current.rightArrowKey.isPressed)
+        if (Input.GetKey(KeyCode.D))
         {
             move += new Vector2(1, 0);
         }
