@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class to2ndFloor : MonoBehaviour
+public class SceneTile : MonoBehaviour
 {
     public AudioClip sound1;
     AudioSource audioSource;
