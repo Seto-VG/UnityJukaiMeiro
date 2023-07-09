@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &8727922685624155526
+--- !u!1 &3376233030183684791
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,39 +8,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2954327117556746578}
-  - component: {fileID: 5312962466232485891}
-  - component: {fileID: 7223754046953998083}
-  - component: {fileID: 1242792893142064151}
+  - component: {fileID: 4467893322624804035}
+  - component: {fileID: 1282836743057338198}
+  - component: {fileID: 7256334839854044551}
+  - component: {fileID: 8366833909128375898}
   m_Layer: 0
-  m_Name: tokotokoSEtile
+  m_Name: DoonSEtile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2954327117556746578
+--- !u!4 &4467893322624804035
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8727922685624155526}
+  m_GameObject: {fileID: 3376233030183684791}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.0390384, y: -3.1626832, z: -1.7672677}
+  m_LocalPosition: {x: 15.82, y: -7.38, z: -1.7672677}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &5312962466232485891
+--- !u!61 &1282836743057338198
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8727922685624155526}
+  m_GameObject: {fileID: 3376233030183684791}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -79,13 +79,13 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!82 &7223754046953998083
+--- !u!82 &7256334839854044551
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8727922685624155526}
+  m_GameObject: {fileID: 3376233030183684791}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
@@ -99,7 +99,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 0.3
+  MinDistance: 1
   MaxDistance: 5
   Pan2D: 0
   rolloffMode: 2
@@ -111,7 +111,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1.0041046
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -120,7 +120,7 @@ AudioSource:
       outWeight: 0.33333334
     - serializedVersion: 3
       time: 1
-      value: 0.5076901
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -175,17 +175,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1242792893142064151
+--- !u!114 &8366833909128375898
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8727922685624155526}
+  m_GameObject: {fileID: 3376233030183684791}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f36a7bbfb10794479380ab1d47f6d34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sound1: {fileID: 8300000, guid: d356fe9f348cd774db7b4433bcb100af, type: 3}
-  length: 3
+  sound1: {fileID: 8300000, guid: 9bae0ff7fd39f9b4c9fe27a4de7035d7, type: 3}
+  length: 4
