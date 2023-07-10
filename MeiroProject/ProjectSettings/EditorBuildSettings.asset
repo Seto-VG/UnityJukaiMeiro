@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MeiroProject/Scenes/TitleScene.unity
     guid: 19aca2a1058e58e44b1e23af4d2381ab
+  - enabled: 1
+    path: Assets/MeiroProject/Scenes/TitleScene2.unity
+    guid: 5389b81828d5cd848a35f3cb2917f74a
   m_configObjects: {}
