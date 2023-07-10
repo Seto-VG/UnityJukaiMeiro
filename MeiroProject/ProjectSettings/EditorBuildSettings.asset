@@ -6,15 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/MeiroProject/Scenes/1stStage.unity
+    path: Assets/MeiroProject/Scenes/FinalStage.unity
     guid: 220cfce084c7b8f48a9d4d44d48fb86b
-  - enabled: 1
-    path: Assets/MeiroProject/Scenes/2nd.unity
-    guid: 6a812380945ab7d4ab65aaf83b4bb21b
   - enabled: 1
     path: Assets/MeiroProject/Scenes/TitleScene.unity
     guid: 19aca2a1058e58e44b1e23af4d2381ab
   - enabled: 1
     path: Assets/MeiroProject/Scenes/TitleScene2.unity
     guid: 5389b81828d5cd848a35f3cb2917f74a
+  - enabled: 1
+    path: Assets/MeiroProject/Scenes/2ndStage.unity
+    guid: 6b5a1d25ffb4efe45a891eee5e970bf3
   m_configObjects: {}
