@@ -401,6 +401,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BGM_Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7960497766402414411, guid: ee1be15cf6cea6840b06d83d31fd0d01,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.296
+      objectReference: {fileID: 0}
     - target: {fileID: 9007107315388955127, guid: ee1be15cf6cea6840b06d83d31fd0d01,
         type: 3}
       propertyPath: m_RootOrder
