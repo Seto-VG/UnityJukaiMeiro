@@ -55,3 +55,6 @@ TagManager:
   - name: Player
     uniqueID: 698418107
     locked: 0
+  - name: ExitWall
+    uniqueID: 3228208189
+    locked: 0
