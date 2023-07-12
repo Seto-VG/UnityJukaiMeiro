@@ -728,7 +728,7 @@ MonoBehaviour:
   itemId: 14
   indentLevel: 0
   targetObject: {fileID: 689852567}
-  methodName: EndingChgScene
+  methodName: endingChgScene
   delay: 0
 --- !u!114 &689852586
 MonoBehaviour:
@@ -742,7 +742,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d64c23690fc010d4bbfaeac96512a50e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadScene: EndScene
+  loadScene: TitleScene
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeSpeedMultiplier: 0.6
 --- !u!1 &862342022
