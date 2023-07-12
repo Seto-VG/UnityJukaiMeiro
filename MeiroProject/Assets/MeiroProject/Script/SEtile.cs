@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SEtile : MonoBehaviour
 {
+    private int switch1 = 0;
     public AudioClip sound1;
     public  float length;
     AudioSource audioSource;
@@ -18,9 +19,15 @@ public class SEtile : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            
             Destroy(gameObject, length);
-           
-            audioSource.PlayOneShot(sound1);
+            if (switch1 == 0)
+            {
+                audioSource.PlayOneShot(sound1);
+                switch1 = 1;
+
+            }
+            
 
         }
     }
